@@ -3,7 +3,8 @@ let accountEmail ="ubaid@gmail.com"
 var accountPassword = "12345"
 accountcity = "Kashmir"
 
-let acountState;
+let acountState;// undefined
+
 
 // accountId = 2 // error // not allowed
 accountcity ="srinagar"
