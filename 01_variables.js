@@ -21,4 +21,3 @@ console.table([accountId, accountEmail, accountPassword, accountcity , acountSta
 Prefer not to use  var
 because of issue with block scope and functional scope
 */
-console.log("Prefer not to use  var");
