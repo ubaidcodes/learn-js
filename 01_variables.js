@@ -3,7 +3,7 @@ let accountEmail ="ubaid@gmail.com"
 var accountPassword = "12345"
 accountcity = "Kashmir"
 
-
+let acountState;
 
 // accountId = 2 // error // not allowed
 accountcity ="srinagar"
@@ -14,7 +14,7 @@ accountPassword="98869"
 // it possible to find this of code but not recommended
 console.log(accountId);
   
-console.table([accountId, accountEmail, accountPassword, accountcity]);
+console.table([accountId, accountEmail, accountPassword, accountcity , acountState]);
 
 /*
 Prefer not to use  var
