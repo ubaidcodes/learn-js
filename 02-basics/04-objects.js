@@ -62,11 +62,47 @@ user[1].email
 
 
 
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));// isnt used most of the times
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));// isnt used most of the times
 
 
- 
+ //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//Object de-structure and JSON API intro
+
+
+
+const course = {
+        coursename: "js in kashmiri",
+        price: "999",
+        courseInstructor: "zaid",
+
+}
+
+// console.log(course.courseInstructor);
+
+
+const {courseInstructor} = course
+
+// console.log(courseInstructor);
+
+const {courseInstructor: instructor} = course
+
+
+//=============================================================
+//API ==> the values comes in json format
+//JSON looks very similar to how JavaScript objects
+//In JSON, the property names (keys) must always be in double quotes " "
+
+// {
+
+//     "coursename": "js in kashmiri",
+//         "price": 999,
+//         "name": "zaid"
+    
+// }
+
+
