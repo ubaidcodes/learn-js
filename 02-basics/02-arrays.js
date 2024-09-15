@@ -23,7 +23,8 @@ const realArray =  anotherArray.flat(2) // it combines every array inside array 
 
 
 console.log(Array.isArray("ubaid"));
-console.log(Array.from("ubaid")); // .from  it converts string into array
+console.log(Array.of("ubaid ullah"));
+console.log(Array.from("ubaid  ")); // .from  it converts string into array
 
 
 console.log(Array.from({name: 'ubaid', age: 22})); //intresting array cause it return empty array array
