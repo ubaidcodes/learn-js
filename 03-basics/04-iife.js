@@ -20,4 +20,4 @@ chai();
 // IIFE with  argument and parameter
 (  (name) => { // simple iife  
     console.log(`DB CONNECTED TWO ${name}`);
-} )('hitesh'); // here we are passing paramete
+} )('hitesh'); // here we are passing parameter
